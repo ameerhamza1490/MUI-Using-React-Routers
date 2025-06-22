@@ -7,7 +7,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "./Theme.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/MUI-Using-React-Routers">
+  <BrowserRouter>
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
